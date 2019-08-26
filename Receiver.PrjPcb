@@ -43,7 +43,7 @@ ReleaseFolderPath=[OutputPath]
 ReleaseZipPath=[OutputPath][ProjectName].zip
 
 [Document1]
-DocumentPath=Overview.SchDoc
+DocumentPath=Schematic\Overview.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -57,10 +57,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=YYUFMVHU
+DocumentUniqueId=
 
 [Document2]
-DocumentPath=PicoZed.SchDoc
+DocumentPath=Schematic\PicoZed.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -74,7 +74,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=CFULGCNT
+DocumentUniqueId=
 
 [ProjectVariant1]
 UniqueID=7232D208-4D54-49B2-BBEF-DBA5DD85604A
@@ -85,20 +85,20 @@ VariationCount=0
 ParamVariationCount=0
 
 [Parameter1]
-Name=Prometheus_Version
-Value=v0.0.0.1
+Name=Prometheus_Project_ID
+Value=xxxx
 
 [Parameter2]
-Name=Prometheus_Title
-Value=SDR - Receiver
-
-[Parameter3]
 Name=Prometheus_Release
 Value=NOT VERIFIED
 
+[Parameter3]
+Name=Prometheus_Title
+Value=SDR - Receiver
+
 [Parameter4]
-Name=Prometheus_Project_ID
-Value=xxxx
+Name=Prometheus_Version
+Value=v0.0.0.1
 
 [Configuration1]
 Name=Sources
