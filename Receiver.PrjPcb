@@ -63,7 +63,7 @@ DocumentUniqueId=YYUFMVHU
 DocumentPath=Schematic\PicoZed.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=1
@@ -196,7 +196,24 @@ GenerateClassCluster=0
 DocumentUniqueId=OEAFMCHD
 
 [Document10]
-DocumentPath=OutJobs\PowerSupply.Harness
+DocumentPath=Schematic\USB_Ethernet.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=200
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=3
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=BNAJCBAK
+
+[Document11]
+DocumentPath=Schematic\PowerSupply.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -212,8 +229,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document11]
-DocumentPath=Schematic\Connectors.SchDoc
+[Document12]
+DocumentPath=Schematic\USB_Ethernet.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -227,7 +244,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=BNAJCBAK
+DocumentUniqueId=
 
 [ProjectVariant1]
 UniqueID=7232D208-4D54-49B2-BBEF-DBA5DD85604A
@@ -388,12 +405,42 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
+OutputType21=SIMetrixNetlist
+OutputName21=SIMetrix
+OutputDocumentPath21=
+OutputVariantName21=
+OutputDefault21=0
+OutputType22=SIMPLISNetlist
+OutputName22=SIMPLIS
+OutputDocumentPath22=
+OutputVariantName22=
+OutputDefault22=0
+OutputType23=XSpiceNetlist
+OutputName23=XSpice Netlist
+OutputDocumentPath23=
+OutputVariantName23=
+OutputDefault23=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=Foxit Reader PDF Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=AdvSimNetlist
+OutputName1=Mixed Sim
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+OutputType2=SIMetrixSimulation
+OutputName2=SIMetrix
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+OutputType3=SIMPLISSimulation
+OutputName3=SIMPLIS
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -605,6 +652,11 @@ OutputName6=Report Single Pin Nets
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
+OutputType7=GOSTBOM
+OutputName7=GOST BOM
+OutputDocumentPath7=
+OutputVariantName7=[No Variations]
+OutputDefault7=0
 
 [OutputGroup7]
 Name=Other Outputs
@@ -880,6 +932,11 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
+OutputType10=AnsysEDB
+OutputName10=Ansys EDB
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1273,8 +1330,8 @@ ComponentIsDeviceSheet3=0
 FullReplace=1
 UpdateDesignatorLock=0
 UpdatePartIDLock=0
-PreserveParameterLocations=0
-PreserveParameterVisibility=0
+PreserveParameterLocations=1
+PreserveParameterVisibility=1
 DoGraphics=1
 DoParameters=1
 DoModels=1
