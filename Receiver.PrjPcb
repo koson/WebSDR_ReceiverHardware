@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for Receiver
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -558,7 +558,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for Receiver
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -2189,12 +2189,12 @@ PartTypes=0
 
 [NetInfos]
 Net1=NetName=3V3_Misc|NetColor=clLime
-Net2=NetName=1V8_ADC|NetColor=$00007FFF
+Net2=NetName=5V_Amp|NetColor=clRed
 Net3=NetName=USB_VBUS|NetColor=clBlue
 Net4=NetName=+12V|NetColor=$00D30094
 Net5=NetName=1V8_Con|NetColor=clYellow
 Net6=NetName=5V_Zed|NetColor=$0082004B
-Net7=NetName=5V_Amp|NetColor=clRed
+Net7=NetName=1V8_ADC|NetColor=$00007FFF
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
