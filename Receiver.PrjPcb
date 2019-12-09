@@ -2216,10 +2216,11 @@ PartTypes=0
 Net1=NetName=3V3_Misc|NetColor=clLime
 Net2=NetName=5V_Amp|NetColor=clRed
 Net3=NetName=USB_VBUS|NetColor=clBlue
-Net4=NetName=+12V|NetColor=$00D30094
-Net5=NetName=1V8_Con|NetColor=clYellow
-Net6=NetName=5V_Zed|NetColor=$0082004B
-Net7=NetName=1V8_ADC|NetColor=$00007FFF
+Net4=NetName=1V8_CLK|NetColor=$006E6EFF
+Net5=NetName=+12V|NetColor=$00D30094
+Net6=NetName=1V8_Con|NetColor=clYellow
+Net7=NetName=5V_Zed|NetColor=$0082004B
+Net8=NetName=1V8_ADC|NetColor=$00007FFF
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
