@@ -20,7 +20,7 @@ Description=
 TargetOutputMedium=Schematics
 VariantName=[No Variations]
 VariantScope=1
-CurrentConfigurationName=Schematics
+CurrentConfigurationName=
 TargetPrinter=Virtual Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
@@ -45,7 +45,7 @@ Configuration1_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowPr
 [PublishSettings]
 OutputFilePath2=D:\1_Daten\1_HTL\5AHELS\Diplomarbeit\WebSDR\PoE_Supply\Project Outputs for PoE_power_supply\Schematics\Prometheus_VarID_(Prometheus_ProjectName VariantName)_Prometheus_ProjectVersion.PDF
 ReleaseManaged2=1
-OutputBasePath2=
+OutputBasePath2=Project Outputs for Receiver
 OutputPathMedia2=[Media Name]
 OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
