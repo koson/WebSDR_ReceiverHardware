@@ -475,6 +475,14 @@ ParameterCount=0
 VariationCount=0
 ParamVariationCount=0
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Receiver\xxxx_Board_Assembly\BOM\BOM-Receiver.xls
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for Receiver\xxxx_Board_Assembly\BOM\BOM_sorted-Receiver.xls
+DItemRevisionGUID=
+
 [Parameter1]
 Name=Prometheus_Project_ID
 Value=xxxx
