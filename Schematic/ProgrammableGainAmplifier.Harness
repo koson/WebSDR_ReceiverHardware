@@ -1,0 +1,2 @@
+Attenuator_Control=LE,D0,D1,D2,D3,D4,D5
+PGA_CTRL=LE,D0,D1,D2,D3,D4,D5,ENA,ENB
